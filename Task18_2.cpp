@@ -11,6 +11,8 @@ int jamp(int n)
 }
 int main()
 {
-    int n = 3;
+    int n =0;
+    std::cout << "Enter the number of steps : ";
+    std::cin >> n;
     std::cout << jamp(n);
 }
